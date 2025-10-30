@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet" />
+    <!-- Google Font  -->
+
+    <!-- Wow CSS  -->
+    <link rel="stylesheet" href="css/wow.min.css" />
+    <!-- Animate CSS  -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- Fontawesome CSS  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Mdbootstrap CSS  -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="background-color: #f6f8ff;">
+
+  <header class=" d-flex justify-content-center align-items-center vh-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4 d-flex justify-content-center">
+          <img class="w-75 " src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" alt="">
+        </div>
+        <div class="col-md-6 d-flex flex-column justify-content-center">
+          <h2 class="text-sm-center text-xs-center ">Create Account</h2>
+          <h5 class="text-muted mb-4">Go ahead and sign up, let everyone <br> know how awesome you are!</h5>
+          <form action="success.html" method="post" onsubmit=" return validation()">
+            <h4 id="errorMessage"></h4>
+            <input type="text" class="form-control mt-3 p-4" id="user" name="user" placeholder="Username">
+            <input type="text" class="form-control mt-3 p-4" id="email" name="email" placeholder="Email">
+            <input type="password" class="form-control mt-3 p-4" id="pass" name="password" placeholder="Username">
+            <input type="password" class="form-control mt-3 p-4" id="confirmPass" name="confirm" placeholder="Confirm Password">
+            <input type="submit" value="Create New Account" class="btn btn-primary btn-block mt-3">
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    <!-- Wow JS -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- Wow JS -->
+
+    <!-- Fontawsome JS  -->
+    <script src="js/all.min.js"></script>
+    <!-- Jquery JS  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- Popper JS  -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap JS  -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Mdbootstrap JS  -->
+     <script src="js/mdb.min.js"></script>
+    <!-- Main JS  -->
+     <script src="js/main.js"></script>
+  </body>
+</html>
